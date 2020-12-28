@@ -15,17 +15,52 @@
     <p class="primeiro-paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, excepturi numquam, debitis eaque quisquam suscipit corporis dolore quas possimus reprehenderit dignissimos eligendi tempore iure, aliquam consequatur ullam commodi? Iure, modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere vitae minima obcaecati id consequatur excepturi dolor. Laboriosam nobis nostrum reiciendis repellendus! Distinctio sint illo necessitatibus doloribus, corrupti repudiandae incidunt molestias!</p>
     
     <!-- Agora uma imagem: -->
-    <img src="https://catracalivre.com.br/wp-content/thumbnails/tIo1ARgivfVi5Gesept_hNWKfu0=/wp-content/uploads/2015/10/imagens-3D_11-450x270.gif" alt="dois monstrinhos sentados se olhando com um diamante entre eles">
+    <a href="https://www.uol.com.br/" title="acesso ao site da UOL" target="_blank"> <img src="https://catracalivre.com.br/wp-content/thumbnails/tIo1ARgivfVi5Gesept_hNWKfu0=/wp-content/uploads/2015/10/imagens-3D_11-450x270.gif" alt="dois monstrinhos sentados se olhando com um diamante entre eles"> <p>Dois monstrinhos </p> </a>
     
-    <p> Clique <a href="https://www.uol.com.br/" title="acesso ao site da UOL" target="_blank"> aqui</a> para <strong> acessar </strong> o site da <a href="https://pt.wikipedia.org/wiki/Universo_Online" title="Universo Online" target="_blank"> UOL. </a> </p> 
+    <p> Clique para <a href="https://www.uol.com.br/" title="acesso ao site da UOL" target="_blank"> para acessar o site da <strong> UOL </strong>. </a> </p> 
 
     <p class="segundo-paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, cum facere. Itaque commodi repellat debitis amet odio perferendis fugit in. Vero porro in saepe voluptates earum! Quas a tenetur iure! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iure eos ipsam dignissimos facilis dolor, error aspernatur quam labore, a libero explicabo recusandae? Repellat necessitatibus cum sunt cumque qui minus.</p>
 
-    
+    <dl>
+      <dt> Solilóquio </dt>
+        <dd> No drama, onde um personagem fala a si mesmo, representando seus pensamentos ou sentimentos internos e no processo, transmitindo-os ao público (mas não a outros personagens).</dd>
+      <dt> Monólogo </dt>
+        <dd> No drama, onde um personagem fala seus pensamentos em voz alta para compartilhá-los com o público e com outros personagens presentes.</dd>
+      <dt> Aparte </dt>
+        <dd> No drama, onde um personagem compartilha um comentário apenas com o público para efeito humorístico ou dramático. Isso geralmente é um sentimento, pensamento ou parte de informação de fundo adicional.</dd>
+        <dd> Por escrito, uma seção de conteúdo que está relacionada ao tópico atual, mas não se encaixa diretamente no fluxo principal de conteúdo, então é apresentado próximo (muitas vezes em uma caixa ao lado).</dd>
+    </dl>    
+
+    <p>According to the <a href="/en-US/docs/Web/HTML/Element/blockquote">
+        <cite>MDN blockquote page</cite></a>:
+        </p>
+        
+        <blockquote cite="/en-US/docs/Web/HTML/Element/blockquote">
+          <p>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
+          Quotation Element</em>) indicates that the enclosed text is an extended quotation.</p>
+        </blockquote>
+        
+        <p>The quote element — <code>&lt;q&gt;</code> — is <q cite="/en-US/docs/Web/HTML/Element/q">intended
+        for short quotations that don't require paragraph breaks.</q> -- <a href="/en-US/docs/Web/HTML/Element/q">
+        <cite>MDN q page</cite></a>.</p>
 
 
+        <pre><code>var para = document.querySelector('p');
 
-
+            para.onclick = function() {
+              alert('Owww, stop poking me!');
+            }</code></pre>
+            
+            <p>You shouldn't use presentational elements like <code>&lt;font&gt;</code> and <code>&lt;center&gt;</code>.</p>
+            
+            <p>In the above JavaScript example, <var>para</var> represents a paragraph element.</p>
+            
+            
+            <p>Select all the text with <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>A</kbd>.</p>
+            
+            <pre>$ <kbd>ping mozilla.org</kbd>
+            <samp>PING mozilla.org (63.245.215.20): 56 data bytes
+            64 bytes from 63.245.215.20: icmp_seq=0 ttl=40 time=158.233 ms</samp></pre>
 
     <script src="scripts/script.js"></script>
 </body>
